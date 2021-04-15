@@ -67,6 +67,15 @@ body{
     color: rgb(206, 147, 147);
 }
 
+.sg-name:hover,
+.mv-name:hover,
+.singer-name:hover,
+.duration:hover {
+    cursor: pointer;
+    transform: scale(1.009);
+    color: #fff;
+}
+
 .play-buttons{
     text-align: center;
     margin: 10% 0%;
