@@ -24,6 +24,8 @@ $(".next").on("click",next);
 
 $(document).on("keypress",function(key){
     if(key.originalEvent.key == " ") playPause();
+    if(key.which == 37) prev();
+    if(key.which == 39) next();
 });
 
 function prev(){
@@ -70,3 +72,9 @@ function playSong(id){
     isPlaying = true;
     started = true;
 }
+
+$(document).keydown(function(e) {
+    if (e.which == 32) {
+        return false;
+    }
+});
