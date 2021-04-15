@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(20, 4, 39);
+    color: #fff;
+}
+
+#main{
+    margin: 2% 2%;
+}
+
+/* Playlist section */
+
+.main-title{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.h-playlist{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 3.5rem;
+}
+
+.play-song{
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.play-song img{
+    width: 50px;
+    border-radius: 25%;
+}
+
+.playlist{
+    padding: 3% 1%;
+}
+
+.play-song:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    color: rgb(255, 255, 255);
+}
+
+/* Song-Info Section */
+.song-image img{
+    width: 170px;
+    
+}
+
+.song-image{
+    margin: 4% auto;
+}
+
+.real-image{
+    margin-left: 10%;
+    border-radius: 10%;
+    transition: ease-in-out 0.5s;
+}
+
+.real-image:hover{
+    transform: scale(1.3);
+}
+
+.song-description{
+    font-size: 1.5rem;
+    padding: 4%;
+    color: rgb(206, 147, 147);
+}
+
+.play-buttons{
+    text-align: center;
+    margin: 10% 0%;
+}
+
+.play-buttons i{
+    font-size: 3rem;
+    margin: 1% 5%;
+}
+
+.prev:hover,.play-pause,.next{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 1%;
+}

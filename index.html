@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <!-- Linking Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- linking bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- linking css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="main">
+      <h1 class="main-title">Music Player</h1>
+      <div class="row">
+        <div
+          class="main-col col-lg-9"
+        >
+          <div class="row">
+            <div class="col-lg-4 song-image">
+              <img src="images/image.png" class="real-image" alt="image" />
+            </div>
+            <div class="col-lg-8 song-description">
+              <p class="sg-name">Song Name: </p>
+              <p class="mv-name">Movie Name: </p>
+              <p class="singer-name">Singer Name: </p>
+              <p class="duration">Duration: </p>
+            </div>
+          </div>
+          <div class="play-buttons">
+            <i class="fas fa-arrow-left prev"></i>
+            <i class="fas fa-play play-pause"></i>
+            <i class="fas fa-arrow-right next"></i>
+          </div>
+          <audio id="audio" src="" autoplay></audio>
+        </div>
+        <div class="playlist col-lg-3">
+          <h2 class="h-playlist">Playlist</h2>
+          <div class="play-song" id="akh">
+            <img src="images/akh.jpg" alt="Akh Lad Jaave" />
+            <span class="song-name">Akh Lad Jaave</span>
+          </div>
+          <div class="play-song" id="coca">
+            <img src="images/coca.jpg" alt="Coca Cola">
+            <span class="song-name">Coca Cola</span>
+          </div>
+          <div class="play-song" id="dilbar">
+            <img src="images/dilbar.jpg" alt="Dilbar">
+            <span class="song-name">Dilbar</span>
+          </div>
+          <div class="play-song" id="garmi">
+            <img src="images/garmi.jpg" alt="Garmi">
+            <span class="song-name">Garmi</span>
+          </div>
+          <div class="play-song" id="illegal">
+            <img src="images/illegal.jpg" alt="Illegal Weapon">
+            <span class="song-name">Illegal Weapon 2.0</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      ©️Sanket Bhagat(2021)
+    </footer>
+
+    <!-- Linking bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- linking jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- linking javascript -->
+    <script src="index.js"></script>
+  </body>
+</html>
